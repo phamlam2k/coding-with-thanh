@@ -1,26 +1,26 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomeScreen from "./screens/Home";
 
-
 import "./App.css";
 import Header from "./components/common/Header";
-import InfoDisplay from "./screens/InfoDisplay";
-import Input from "./screens/InputButton";
-import ToDoList from "./screens/TodoList";
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <HomeScreen />,
-//   }
-// ]);
+import AboutUs from "./screens/AboutUs";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomeScreen />,
+  },
+  {
+    path: "/about-us",
+    element: <AboutUs />,
+  },
+]);
 
 function App() {
   return (
     <>
-      <Header / >
-      <InfoDisplay/>
-      <Input/>
-      <ToDoList/>
+      <Header />
+      <RouterProvider router={router} />
     </>
   );
 }
