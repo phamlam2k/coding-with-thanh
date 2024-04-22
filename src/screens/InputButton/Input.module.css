@@ -1,0 +1,41 @@
+.main {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:30px;
+    gap: 60px
+  }
+
+
+.info {
+    font-weight: bold;
+    color: red;
+}
+
+.p { 
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.input{ 
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+.button {
+    margin-top: 25px;
+    height: 40px;
+    width: 70px;
+    color: white;
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: aqua;
+}

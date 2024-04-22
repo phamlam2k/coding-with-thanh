@@ -1,0 +1,21 @@
+.main-1 {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:30px;
+    gap: 60px
+  }
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    padding: 9px;
+    border: solid 1px black
+}
+.info {
+    font-weight: bold;
+    color: red;
+}

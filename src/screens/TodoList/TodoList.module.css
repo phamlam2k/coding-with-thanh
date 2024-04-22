@@ -1,0 +1,18 @@
+.todoTable {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 30px;
+    margin-right: 30px;
+    padding: 20px;
+  }
+  
+  .todoTable th,
+  .todoTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .h2 {
+    margin: 30px;
+  }
