@@ -1,0 +1,32 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* High z-index to ensure the modal is above other content */
+  }
+  
+  .modalContent {
+    position: relative;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px; /* Adjust width as necessary */
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Optional: adds rounded corners */
+  }
+  
+  .closeButton {
+    position: absolute;
+    right: 10px;
+    border: none;
+    background: transparent;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
