@@ -1,5 +1,5 @@
 .todoTable {
-    width: 60%;
+    width: 70%;
     border-collapse: collapse;
     margin: 30px;
     margin-right: 30px;
@@ -10,9 +10,39 @@
   .todoTable td {
     border: 1px solid #ddd;
     padding: 8px;
-    text-align: left;
+    text-align: center;
   }
 
   .h2 {
     margin: 30px;
   }
+
+.filterButtons {
+  margin-left: 20px; 
+ 
+}
+
+.filterButtons button {
+  margin: 0 10px; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  border: none; 
+  background-color: #007BFF; 
+  color: white; 
+  border-radius: 5px; 
+  transition: background-color 0.3s, transform 0.2s; 
+}
+
+
+
+.filterButtons button:active {
+  background-color: #004085; 
+  transform: translateY(1px); 
+}
+
+.filterButtons .color{
+  background-color: #043d7b; 
+  transform: translateY(-2px); 
+  color: whitesmoke;
+}
